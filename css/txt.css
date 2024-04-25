@@ -1,0 +1,51 @@
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:    ;
+    color: olive;
+    background-color: rgb(203, 231, 255);
+    text-align: justify;
+    text-indent: 5em;
+    text-shadow: 1px 2px 2px  brown  ;
+}
+
+h1{ font-family: impact;
+    font-size: 2em;
+    font-weight: medium ;
+    font-style: italic;
+    letter-spacing: .25em;
+    text-align: center;
+    
+
+    text-transform: capitalize;
+    
+}
+
+p::first-letter{
+    font-size: 200%;
+    
+}
+a:link{
+    color: gold;
+    font: 1em sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: medium;
+    margin: 20px;
+    
+
+}
+ 
+a:visited{
+    color: teal;
+}
+ a:hover{
+    color: bisque;
+ }
+  a:active{
+    color: aqua;
+  }
+
+a:focus{
+    color: green;
+}
+
+ 

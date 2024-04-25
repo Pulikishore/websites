@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms </title>
+    <link rel="stylesheet" href="css/sty.css" type="text/css">
+</head>
+<body>
+    <form action="basic.html" method="get">
+    <div>
+        <label for="username" > Username </label>
+        <input type="text" name="username" id="username" maxlength="5" required>
+    </div>
+    <div>
+     <label for="password" > </label>
+        <input type="password" name="password" id="password" placeholder="password" size="19" required
+        minlength="7">
+    </div>
+    <div>
+        <label for="mail" > E-Mail </label>
+        <input type="email" name="mail" id="mail" required>
+    </div>
+    <div>
+        <label for="dateofbirth" > DOB </label>
+        <input type="date" name="Dateofbirth" id="dateofbirth" min="2022" max="2025">
+    </div>
+    <div>
+        <label for="age" > Age  </label>
+        <input type="number" name="Age" id="Age" min="18" max="99">
+    </div>
+    <div>
+        <label for="" > Tell About ur self </label>
+        <textarea name="about" id="about " rows=" 10" cols="30"></textarea>
+    </div>
+    <div>
+        
+        <input type="checkbox" name="Smsalert" id="ssmsalert">
+        <label for="Smsalert"> SMS </label>
+    </div>
+    <div>
+        
+        <input type="checkbox" name="mailalert" id="mailalert">
+        <label for="mailalert"> Gmail </label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male"> Male </label>
+    </div>
+    <div>
+        <input type="radio" name="gender" id="male" value="FeMale">
+        <label for="FeMale"> FeMale </label>
+    </div>
+    <select name="state" id="state">
+        <option value="tn"> Tamil Nade </option>
+        <option value="ap"> Andhra pradesh </option>
+        <option value="ka"> karnathaka </option>
+        <option value="mh"> Maharastra </option>
+            <option value="mp"> Mathiya pradesh </option>
+
+        </option>
+    </select>
+    <div>
+        <label for="file"> Project Submission</label>
+        <input type="file" name="file" id="file">
+    </div>
+    <button type="submit"> Upload </button>
+    <button type="reset"> Re-set </button>
+</form>
+</body>
+</html>
