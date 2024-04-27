@@ -1,0 +1,69 @@
+body{
+    background: url("/Media/cat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+#mid{
+    background: url("/Media/cat.jpg");
+    border: 30px;
+    width: 300px;
+    background-color: rgba(0, 20, 40, .6 );
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10% 0 10%;
+    
+}
+#mid label{
+    display: block;
+    padding: 3px;
+}
+
+#mid h1{
+    text-align: center;
+    letter-spacing: 5px;
+    
+}
+
+.adg{
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+
+.adg input{
+    padding: 10px;
+    font-size: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 2px;
+    width: 90%;
+   
+} 
+
+#mid #in{
+    text-align: center;
+    
+
+}
+
+
+
+
+
+button{
+    text-align: center;
+    box-sizing: 20%;
+    font-variant: small-caps;
+    
+    
+    
+}
